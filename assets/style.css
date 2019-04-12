@@ -79,14 +79,29 @@ a:link{
     right: 10%
 }
 
+ .about{
+     height: 80vh;
+     width: 100vw;
+     background-image: url('aboutbg.png');
+     background-repeat: no-repeat;
+     background-position: left;
+     background-size: contain;
+ }
+.abouthead{
+  color: #fff;
+  font-size: 60px;
+  font-family: 'montbold';
+  padding-top: 15vh;
+}
 
-
-
-
-
-
-
-
+.abouthead p{
+  padding-top: 5vh;
+  opacity: 0.7;
+  font-size: 20px;
+}
+.aboutbox{
+  padding-left: 10vh;
+}
 
 
 /* Bartender */
