@@ -102,7 +102,71 @@ a:link{
 .aboutbox{
   padding-left: 10vh;
 }
-
+.works{
+  height: 80vh;
+  width: 100vw;
+  background-image: url('projects.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.workshead{
+  color: #fff;
+  font-size: 60px;
+  font-family: 'montbold';
+  padding-top: 15vh;
+  padding-left: 30px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.line{
+  height: 1px;
+  margin: auto;
+  margin-top: 3vh;
+  /* margin-bottom: 3vh; */
+  width: 70vmin;
+  background-color: #fff;
+}
+.workspara{
+  color: #fff;
+  font-family: 'mont';
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  padding-top: 5vh;
+  opacity: 0.7;
+  font-size: 20px;
+}
+.cards{
+  padding-top: 10vh;
+}
+.card{
+  padding: 0;
+  padding-top: 30vh;
+  height: 40vh;
+  width: 60vh;
+  background-color: #13171c;
+}
+.c-holder{
+  background-color: #efefef;
+  width: 60vh;
+  height: 10vh;
+}
+.mod{
+  height: 33vh;
+  width: 33vh;
+  margin-top: 10vh;
+  /* background-color: #fff; */
+  border: 2px solid #fff;
+}
+.pieces{
+  height: 80vh;
+  width: 100vw;
+  background-image: url('random.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
 
 /* Bartender */
 
