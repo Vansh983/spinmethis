@@ -159,7 +159,9 @@ a:link{
   /* background-color: #fff; */
   border: 2px solid #fff;
 }
-.pieces{
+
+.piece{
+  position: absolute;
   height: 80vh;
   width: 100vw;
   background-image: url('random.png');
@@ -167,6 +169,20 @@ a:link{
   background-position: center;
   background-size: contain;
 }
+.gci{
+  padding-top: 10vh
+}
+.glogo{
+  margin-top: 27vh;
+  margin-left: 11vw;
+  height: 30vh;
+  width: 30vh;
+  background-image: url('google.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
 
 /* Bartender */
 
