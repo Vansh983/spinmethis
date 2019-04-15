@@ -10,6 +10,10 @@ body {
   src: url('fonts/Montserrat-SemiBold.ttf');
   font-family: 'montbold';
 }
+@font-face {
+  src: url('fonts/Proxima Nova.otf');
+  font-family: 'proxi';
+}
 ::selection{
   color: #dedede;
   background-color: #13171c;
@@ -32,7 +36,7 @@ a:visited,
 a:hover,
 a:link{
   text-decoration: none;
-
+  color: #fff;
 }
 .land{
   height: 120vh;
@@ -182,7 +186,34 @@ a:link{
   background-position: center;
   background-size: contain;
 }
+.contact{
+  /* margin-top: 7vh;
+  padding-top: 4vh;
+  height: 70vh;
+  width: 100vw;
+  background-image: url('contact.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain; */
 
+  position: relative;
+  z-index: 10;
+}
+.contactpara{
+  color: #fff;
+  padding-top: 5vh;
+  width: 80%;
+  margin: auto;
+  opacity: 0.7;
+  font-size: 20px;
+  font-family: 'proxi';
+}
+.contactpara i{
+  font-size: 25px;
+  font-family: 'mont';
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
 
 /* Bartender */
 
