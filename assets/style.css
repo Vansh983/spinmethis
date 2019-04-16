@@ -166,7 +166,7 @@ a:link{
 
 .piece{
   position: absolute;
-  height: 80vh;
+  height: 70vh;
   width: 100vw;
   background-image: url('random.png');
   background-repeat: no-repeat;
@@ -214,6 +214,36 @@ a:link{
   text-decoration: underline;
   text-decoration-style: dashed;
 }
+
+
+footer{
+  width: 100vw;
+  position: relative;
+  z-index: 10;
+  padding-bottom: 5vh;
+}
+.variety{
+	margin-left: 72.5vh;
+	/* margin-top: 10vh; */
+}
+.foot-it{
+	margin: auto;
+	color: #efefef;
+	font-size: 25px;
+	width: 10vh;
+	text-align: center;
+	display: inline-block;
+}
+
+.foot-line{
+	width: 100vw;
+	height: 2px;
+	background: #8a8a8a;
+	margin-top: 10vh;
+	margin-bottom: 6vh;
+}
+
+
 
 /* Bartender */
 
