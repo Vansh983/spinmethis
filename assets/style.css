@@ -1,10 +1,16 @@
 body {
   background: #0d0d0d;
+  margin: 0;
+  padding: 0;
   overflow-x: hidden;
 }
 @font-face {
   src: url('fonts/Montserrat-Medium.ttf');
   font-family: 'mont';
+}
+@font-face {
+  src: url('fonts/Montserrat-Regular.ttf');
+  font-family: 'montreg';
 }
 @font-face {
   src: url('fonts/Montserrat-SemiBold.ttf');
@@ -39,25 +45,30 @@ a:link{
   color: #fff;
 }
 .land{
-  height: 120vh;
-  width: 100vw;
   background-image: url('land.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
 }
 
 .landhead{
-  color: #fff;
-  font-size: 60px;
-  font-family: 'montbold';
+  color: #15263c;
+  font-size: 80px;
+  font-family: 'montreg';
   padding-top: 35vh;
-  line-height: 0.7;
+  line-height: 0.5;
 }
 .landhead i{
   font-size: 25px;
-  opacity: 0.7;
+  opacity: 0.8;
 }
+.landhead-active{
+  
+}
+
 .menu{
   padding-top: 5vh;
 }
@@ -83,8 +94,10 @@ a:link{
     right: 10%
 }
 
- .about{
+ .aboutp{
+   position: absolute;
      height: 80vh;
+     z-index: -1;
      width: 100vw;
      background-image: url('aboutbg.png');
      background-repeat: no-repeat;
@@ -146,15 +159,40 @@ a:link{
 }
 .card{
   padding: 0;
-  padding-top: 30vh;
-  height: 40vh;
-  width: 60vh;
+  /* padding-top: 30vh; */
   background-color: #13171c;
 }
+.c-img{
+  /* background-image: url('search.png'); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  /* width: 100%; */
+  /* background-color: #13171c */
+}
+/* .point{
+  height: 3vh;
+  width: 3vh;
+  background-color: #13171c;
+  display: inline-block;
+  border-radius: 100%;
+} */
 .c-holder{
+  padding-left: 3vh;
+  padding-top: 2vh;
   background-color: #efefef;
-  width: 60vh;
-  height: 10vh;
+  height: 80vh;
+  width: 50%;
+  /* box-sizing: border-box; */
+}
+.c-head{
+  /* width: 3vh; */
+  box-sizing: content-box;
+  position: absolute;
+  font-size: 20px;
+  font-family: 'mont';
+  display: inline-block;
+
 }
 .mod{
   height: 33vh;
@@ -174,7 +212,7 @@ a:link{
   background-size: contain;
 }
 .gci{
-  padding-top: 10vh
+  padding-bottom: 10vh;
 }
 .glogo{
   margin-top: 27vh;
@@ -195,7 +233,8 @@ a:link{
   background-repeat: no-repeat;
   background-position: left;
   background-size: contain; */
-
+  margin-top: 35vh;
+  text-align: center;
   position: relative;
   z-index: 10;
 }
@@ -242,6 +281,8 @@ footer{
 	margin-top: 10vh;
 	margin-bottom: 6vh;
 }
+
+
 
 
 

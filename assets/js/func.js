@@ -1,4 +1,16 @@
 $(document).ready(function(){
+  $(window).scroll(function(){
+    var k = $(window).scrollTop();
+    console.log(k);
+    if(k>5){
+      for (k < 637; i++) {
+        // $('.landhead').
+      }
+    }
+  })
+
+
+
 //Bartender
   let btnOne = document.getElementById("btn");
    let msg = document.getElementById("msg");
