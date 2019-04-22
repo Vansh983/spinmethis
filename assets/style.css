@@ -44,6 +44,7 @@ a:link{
   text-decoration: none;
   color: #fff;
 }
+
 .land{
   background-image: url('land.png');
   background-repeat: no-repeat;
@@ -56,43 +57,50 @@ a:link{
 
 .landhead{
   color: #15263c;
-  font-size: 80px;
+  font-size: 100px;
   font-family: 'montreg';
   padding-top: 35vh;
-  line-height: 0.5;
+  line-height: 0.4;
+  letter-spacing: 3.5px;
 }
 .landhead i{
+  padding-top: 50px;
   font-size: 25px;
   opacity: 0.8;
+  letter-spacing: 1px;
 }
 .landhead-active{
-  
-}
 
-.menu{
-  padding-top: 5vh;
 }
 .it{
-  position: absolute;
-  z-index: 10;
-  display: inline-block;
-  font-size: 20px;
-  letter-spacing: 3px;
-  color: #dedede;
-  text-decoration: underline;
-  text-decoration-color: #aeaeae;
+  font-size: 35px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin-top: 3vh;
   cursor: pointer;
-  font-family: 'mont';
+  color: #dedede;
 }
-.it1{
-  left: 10%;
+.itimage{
+  background-position: center;
+  background-image: url('assets/vs.png');
+  background-size: contain;
+  height: 27vh;
+  width: 27vh;
+  margin: auto;
+  margin-top: 15.5vh;
+  background-repeat: no-repeat;
 }
-.it2{
-  left: 45%;
+.enclose{
+  margin-top: 6vh;
 }
-.it3{
-    right: 10%
+.line4{
+  width: 105px;
+  height: 2px;
 }
+.list2{
+  margin-top: 5vh;
+}
+
 
  .aboutp{
    position: absolute;
@@ -157,43 +165,8 @@ a:link{
 .cards{
   padding-top: 10vh;
 }
-.card{
-  padding: 0;
-  /* padding-top: 30vh; */
-  background-color: #13171c;
-}
-.c-img{
-  /* background-image: url('search.png'); */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  /* width: 100%; */
-  /* background-color: #13171c */
-}
-/* .point{
-  height: 3vh;
-  width: 3vh;
-  background-color: #13171c;
-  display: inline-block;
-  border-radius: 100%;
-} */
-.c-holder{
-  padding-left: 3vh;
-  padding-top: 2vh;
-  background-color: #efefef;
-  height: 80vh;
-  width: 50%;
-  /* box-sizing: border-box; */
-}
-.c-head{
-  /* width: 3vh; */
-  box-sizing: content-box;
-  position: absolute;
-  font-size: 20px;
-  font-family: 'mont';
-  display: inline-block;
 
-}
+
 .mod{
   height: 33vh;
   width: 33vh;
