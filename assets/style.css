@@ -57,14 +57,16 @@ a:link{
 
 .landhead{
   color: #15263c;
-  font-size: 100px;
-  font-family: 'montreg';
+  font-size: 110px;
+  /* font-family: 'montreg'; */
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   padding-top: 27vh;
-  line-height: 1.5;
   letter-spacing: 3.5px;
 }
 .landhead p{
-  padding-top: 10px;
+  line-height: 1.4;
+  padding-left: 20px;
+  font-family: 'montreg';
   font-size: 25px;
   opacity: 0.8;
   letter-spacing: 1px;
@@ -128,16 +130,17 @@ a:link{
   padding-left: 10vh;
 }
 .works{
-  height: 80vh;
+  height: auto;
   width: 100vw;
-  background-image: url('projects.png');
+  background-image: url('projects-w.png');
   background-repeat: no-repeat;
-  background-position: center;
+  background-color: #fff;
+  background-position: top;
   background-size: contain;
 }
 .workshead{
-  color: #fff;
-  font-size: 60px;
+  color: #15263c;
+  font-size: 70px;
   font-family: 'montbold';
   padding-top: 15vh;
   padding-left: 30px;
@@ -145,15 +148,15 @@ a:link{
   text-align: center;
 }
 .line{
-  height: 1px;
+  height: 2px;
   margin: auto;
   margin-top: 3vh;
   /* margin-bottom: 3vh; */
   width: 70vmin;
-  background-color: #fff;
+  background-color: #15263c;
 }
 .workspara{
-  color: #fff;
+  color: #15263c;
   font-family: 'mont';
   text-align: center;
   width: 60%;
@@ -255,6 +258,63 @@ footer{
 	margin-bottom: 6vh;
 }
 
+.card{
+  display: inline-block;
+  margin-left: 7%;
+  margin-top: 5%;
+  cursor: pointer;
+}
+.c-img{
+  height: 50vh;
+  width: 75vh;
+  overflow: hidden;
+  background-image: url('taurus.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.c-head{
+  opacity: 0.7;
+  position: relative;
+  overflow: hidden;
+  bottom: 0%;
+  z-index: 2;
+  padding-top: 15vh;
+  text-align: center;
+  background-color: #000;
+  color: #efefef;
+  font-size: 40px;
+  font-family: 'mont';
+  height: inherit;
+  width: inherit;
+}
+.point{
+  height: 1px;
+  width: 150px;
+  background-color: #efefef;
+  margin: auto;
+  margin-top: 10px;
+}
+.c-head p{
+  font-size: 20px;
+}
+.cg2{
+  background-image: url('alexa.png');
+}
+.cg3{
+  background-image: url('macos.png');
+}
+.cg4{
+  background-image: url('stellar.png');
+}
+.cg5{
+  background-image: url('clar.png');
+}
+.cg6{
+  background-image: url('consilio.png');
+}
+
+
 /* Menu */
 .nav{
   font-family: 'mont';
@@ -310,7 +370,7 @@ footer{
 }
 .tint{
   position: absolute;
-  z-index: 18;
+  z-index: -18;
   height: 100vh;
   width: 100vw;
   background-color: #000;
@@ -319,6 +379,7 @@ footer{
 }
 .tinted{
   opacity: 0.5;
+  z-index: 18;
 }
 .menu{
 	position: absolute;
