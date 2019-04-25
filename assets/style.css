@@ -201,18 +201,23 @@ a:link{
   background-size: contain;
 }
 .contact{
-  /* margin-top: 7vh;
   padding-top: 4vh;
-  height: 70vh;
+  height: auto;
   width: 100vw;
-  background-image: url('contact.png');
+  background-image: url('random.png');
   background-repeat: no-repeat;
-  background-position: left;
-  background-size: contain; */
-  margin-top: 35vh;
+  background-position: top;
+  background-size: contain;
+  /* margin-top: 35vh; */
   text-align: center;
   position: relative;
   z-index: 10;
+}
+.contacthead{
+  color: #fff;
+}
+.line2{
+  background-color: #fff;
 }
 .contactpara{
   color: #fff;
