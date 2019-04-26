@@ -18,6 +18,18 @@ $(document).ready(function(){
     $('.tint').toggleClass('tinted')
     $('.bar-name').toggleClass('bar-name-ac')
   })
+  $('.p1').hover(function(){
+    $('.pt1').toggleClass('point-text-ac')
+  })
+  $('.p2').hover(function(){
+    $('.pt2').toggleClass('point-text-ac')
+  })
+  $('.p3').hover(function(){
+    $('.pt3').toggleClass('point-text-ac')
+  })
+  $('.p4').hover(function(){
+    $('.pt4').toggleClass('point-text-ac')
+  })
   $('.it1').click(function(){
 			$('body, html').animate({scrollTop:$('.land').offset().top}, 1000)
 	})
@@ -41,28 +53,4 @@ $(document).ready(function(){
     $('.bar3').toggleClass('bar3_active')
     $('.bars').toggleClass('bars-active')
   })
-
-
-
-//Bartender
-  let btnOne = document.getElementById("btn");
-   let msg = document.getElementById("msg");
-   let itms = document.getElementsByClassName("items");
-   let snd = document.getElementById("sendmsg");
-   let close = document.getElementById("plus");
-   let dialogText = document.getElementsByClassName("mss");
-   let effct = document.querySelector(".effect");
-   console.log(dialogText);
-   btnOne.addEventListener("click", function() {
-     btnOne.classList.toggle("move");
-     msg.classList.toggle("resize");
-     snd.classList.toggle("send");
-     close.classList.toggle("one-move");
-     effct.classList.toggle("effectshow");
-     for (let i = 0; i <= dialogText.length; i++) {
-       dialogText[i].classList.toggle("mss-show");
-       itms[i].classList.toggle("itmshow");
-     }
-   });
-
-})
+  })
