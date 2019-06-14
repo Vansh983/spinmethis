@@ -287,7 +287,10 @@ footer{
   box-shadow: 5px 5px 20px 1px #efefef;
 }
 .card-img{
-  background-color: #000;
+  background-image: url('Logos/taurus.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 30vh;
 }
 .card-content{
@@ -321,19 +324,19 @@ footer{
 }
 
 .cg2{
-  background-image: url('alexa.png');
+  background-image: url('Logos/alexa.jpg');
 }
 .cg3{
-  background-image: url('macos.png');
+  background-image: url('Logos/macos.jpg');
 }
 .cg4{
-  background-image: url('stellar.png');
+  background-image: url('Logos/stellar.jpg');
 }
 .cg5{
-  background-image: url('clar.png');
+  background-image: url('Logos/clar.jpg');
 }
 .cg6{
-  background-image: url('consilio.png');
+  background-image: url('Logos/consilio.jpg');
 }
 
 
