@@ -275,45 +275,42 @@ footer{
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
 }
+.cards{
+
+}
 .card{
   display: inline-block;
-  margin-left: 7%;
+  margin-left: 12%;
   margin-top: 5%;
+  background-color: #fff;
   cursor: pointer;
+  box-shadow: 5px 5px 20px 1px #efefef;
 }
-.c-img{
-  height: 50vh;
-  width: 75vh;
-  overflow: hidden;
-  background-image: url('taurus.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.card-img{
+  background-color: #000;
+  height: 30vh;
+}
+.card-content{
+  background-color: #fff;
+  font-family: 'Montserrat';
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  width: 90%;
+  margin: auto;
+  color: #13171c !important;
+}
+.c-line{
+  width: 100%;
+  background-color: #000;
+  height: 1px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .c-head{
-  opacity: 0.9;
-  position: relative;
-  overflow: hidden;
-  bottom: 0%;
-  z-index: 5;
-  padding-top: 12vh;
-  padding-bottom: 13vh;
-  text-align: center;
-  color: #efefef;
-  font-size: 40px;
-  font-family: 'mont';
-  margin: 20px;
-  height: auto;
-  width: auto;
-  border: 3px solid #fff;
-}
-.c-tint{
-  position: absolute;
-  z-index: 3;
-  height: 50vh;
-  opacity: 0.7;
-  width: 75vh;
-  background-color: #000;
+  font-size: 33px;
 }
 .point{
   height: 1px;
@@ -322,9 +319,7 @@ footer{
   margin: auto;
   margin-top: 10px;
 }
-.c-head p{
-  font-size: 20px;
-}
+
 .cg2{
   background-image: url('alexa.png');
 }
@@ -481,10 +476,7 @@ ul{
 
 @media only screen and (max-width:700px)
  {
-   .c-img, .c-tint, .card{
-     height: 30vh;
-     width: 88vw;
-   }
+
    .menu{
      position: fixed;
      z-index: -20;
@@ -537,9 +529,6 @@ ul{
    .point-text{
      display: none;
    }
-   .c-head{
-     padding-top: 5vh;
-     padding-bottom: 5vh;
-   }
+
 
 }
