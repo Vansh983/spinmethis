@@ -528,6 +528,7 @@ ul{
    .workshead{
      /* font-size: 85px; */
      padding-top: 10vh;
+     padding-left: 5px;
    }
    .point-text{
      display: none;
